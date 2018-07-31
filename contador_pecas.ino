@@ -6,7 +6,7 @@
 
 
 // Inicializa o display no endereco 0x27
-LiquidCrystal_I2C lcd(0x3F, 16, 2);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 WiFiClientSecure client;//Cria um cliente seguro (para ter acesso ao HTTPS)
 //String textFix = "GET /forms/d/e/1FAIpQLSdxa1jTr9OP7qSBZF78s9LiOz1b6FogQIZYSCk4UNAFXi3wUQ/formResponse?ifq&entry.1429916403=";
 
